@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--
+@author Bartosz Kubicki b.w.kubicki@gmail.com>
+Github: https://github.com/bartoszkubicki
+-->
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         beStrictAboutTestsThatDoNotTestAnything="false"
+         beStrictAboutCoversAnnotation="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Unit">
+            <file>tests/Unit/DeclensionTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>
